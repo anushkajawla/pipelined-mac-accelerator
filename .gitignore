@@ -1,0 +1,12 @@
+# Generated simulation executables
+sim/mac_baseline_sim
+sim/mac_pipelined_sim
+
+# Temporary files
+*.o
+*.log
+*.tmp
+*~
+
+# Git metadata
+.DS_Store

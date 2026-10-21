@@ -1,0 +1,8 @@
+read_verilog -sv rtl/mac_baseline.v
+hierarchy -check -top mac_baseline
+proc
+opt
+check
+synth -top mac_baseline
+stat
+write_verilog synthesis/mac_baseline_netlist.v

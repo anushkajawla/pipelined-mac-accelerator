@@ -1,0 +1,68 @@
+
+21. Printing statistics.
+
+=== mac_baseline ===
+
+        +----------------------------Count including submodules.
+        |        +-------------------Area including submodules.
+        |        |        +----------Local count, excluding submodules.
+        |        |        |        +-Local area, excluding submodules.
+        |        |        |        | 
+     1693        -     1693        - wires
+     1762        -     1762        - wire bits
+        6        -        6        - public wires
+       75        -       75        - public wire bits
+        6        -        6        - ports
+       75        -       75        - port bits
+        -        -        -        - memories
+        -        -        -        - memory bits
+        -        -        -        - processes
+     1242  2.7E+03     1242  2.7E+03 cells
+      249  264.936      249  264.936   AND2_X1
+        7     9.31        7     9.31   AND3_X1
+        1    1.596        1    1.596   AND3_X2
+        1    1.596        1    1.596   AND4_X1
+        2    3.724        2    3.724   AND4_X2
+        2    4.788        2    4.788   AOI211_X2
+       70    74.48       70    74.48   AOI21_X1
+        8   14.896        8   14.896   AOI21_X2
+        2    6.916        2    6.916   AOI21_X4
+        2    3.192        2    3.192   AOI221_X1
+        5    14.63        5    14.63   AOI221_X2
+        1    2.394        1    2.394   AOI22_X2
+       85    67.83       85    67.83   BUF_X1
+       16   17.024       16   17.024   BUF_X2
+        5     9.31        5     9.31   BUF_X4
+        3    2.394        3    2.394   CLKBUF_X1
+       40   180.88       40   180.88   DFF_X1
+      331 1.41E+03      331 1.41E+03   FA_X1
+      114   303.24      114   303.24   HA_X1
+       41   21.812       41   21.812   INV_X1
+        3    5.586        3    5.586   MUX2_X1
+       74   59.052       74   59.052   NAND2_X1
+        1     1.33        1     1.33   NAND2_X2
+       19   20.216       19   20.216   NAND3_X1
+        7     9.31        7     9.31   NAND4_X1
+       39   31.122       39   31.122   NOR2_X1
+        1     1.33        1     1.33   NOR2_X2
+        8    8.512        8    8.512   NOR3_X1
+        1    1.862        1    1.862   NOR3_X2
+        1    2.394        1    2.394   NOR4_X2
+        3    7.182        3    7.182   OAI211_X2
+       39   41.496       39   41.496   OAI21_X1
+        2    3.724        2    3.724   OAI21_X2
+        3    4.788        3    4.788   OAI221_X1
+        2    5.852        2    5.852   OAI221_X2
+        1    2.128        1    2.128   OAI222_X1
+        1    2.394        1    2.394   OAI22_X2
+       10    10.64       10    10.64   OR2_X1
+        4     5.32        4     5.32   OR3_X1
+        1    2.926        1    2.926   OR3_X4
+        1    1.596        1    1.596   OR4_X1
+        2    3.724        2    3.724   OR4_X2
+       24   38.304       24   38.304   XNOR2_X1
+       10    15.96       10    15.96   XOR2_X1
+
+   Chip area for module '\mac_baseline': 2700.432000
+     of which used for sequential elements: 180.880000 (6.70%)
+
