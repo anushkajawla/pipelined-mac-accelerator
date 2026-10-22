@@ -9,7 +9,7 @@ The project explores how pipelining affects timing, area, and estimated power, f
 A Multiply-Accumulate (MAC) unit performs multiplication and addition:
 
 \[
-ACC_{next} = ACC_{current} + (A \times B)
+ACC_{next} = ACC_{current} + (A times B)
 \]
 
 MAC units are widely used in digital signal processing, image processing, machine learning, and other computationally intensive applications.
